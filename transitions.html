@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo: Transitions</title>
+	<style>
+		.box {
+			height: 100px;
+			width: 100px;
+			background-color: #0f0;
+			/*transition-property: opacity, height, width, background-color, transform;*/
+			transition-property: all;
+			transition-duration: 1000ms;
+			transition-timing-function: ease-out;
+		}
+		.box:hover {
+			/*opacity: 0;*/
+			/*width: 200px;*/
+			/*height: 200px;*/
+			background-color: #f00;
+			/*transform: rotate(360deg);*/
+			font-size: 60px;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<h1>Demo: Transitions</h1>
+	<div class="box">
+		Hello
+	</div>
+</body>
+</html>
